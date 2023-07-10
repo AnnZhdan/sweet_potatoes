@@ -1,9 +1,18 @@
 .hero {
+  padding: unset;
+  margin: 0 auto;
+  width: 100%;
+  background-color: var(--primary-green-color);
+}
+.hero-container {
   background-color: var(--primary-green-color);
   padding: 48px 20px 20px 20px;
+  margin: 0 auto;
   width: 100%;
   max-width: 375px;
-  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 .hero-reviews {
   padding-bottom: 14px;
@@ -147,7 +156,7 @@
   border: 1px solid #fff;
 }
 @media screen and (min-width: 375px) {
-  .hero {
+  .hero-container {
     max-width: 375px;
   }
   .hero-header {
@@ -160,7 +169,7 @@
   }
 }
 @media screen and (min-width: 768px) {
-  .hero {
+  .hero-container {
     padding: 64px 32px 32px 32px;
     max-width: 768px;
   }
@@ -245,12 +254,12 @@
 }
 
 @media screen and (min-width: 1280px) {
-  .hero {
-    width: 100%;
+  .hero-container {
+    width: 1280px;
     max-width: 1280px;
     display: flex;
-    justify-content: space-between;
-    gap: 29px;
+    flex-direction: row;
+
     padding: 132px 32px 32px 32px;
   }
   .hero-reviews-photo1 {
@@ -305,6 +314,7 @@
     font-size: 28px;
     line-height: 28px;
     letter-spacing: -1.12px;
+    margin: 0;
   }
   .hero-photo-img {
     width: 515px;
