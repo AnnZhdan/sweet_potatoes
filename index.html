@@ -12,8 +12,8 @@
 
     <!--Styles-->
     
-    <script type="module" crossorigin src="/sweet_potatoes/assets/index-78d539f7.js"></script>
-    <link rel="stylesheet" href="/sweet_potatoes/assets/index-92da71cd.css">
+    <script type="module" crossorigin src="/sweet_potatoes/assets/index-abaf8dad.js"></script>
+    <link rel="stylesheet" href="/sweet_potatoes/assets/index-0f7f842b.css">
   </head>
   <body>
 
@@ -431,36 +431,34 @@
 
       <!--Diana-->
       <section class="recall section">
-  <div class="container">
-  <h2 class="recall-tittle">Fresh Harvest Box has got you covered</h2>
-  <p class="recall-text">
-    Our boxes are packed with delicious, nutritious vegetables, perfect for
-    anyone looking to eat healthier or support local farmers. Order your box
-    today and start enjoying the best that nature has to offer!
-  </p>
-  <form class=" ">
-    <div class="recall-line">
-      <label class="recall-label">
-        <input
-          class="recall-input"
-          name="text"
-          type="text"
-          placeholder="+380 ()"
-        />
-      </label>
-      <button class="recall-btn" type="submit">Recall</button>
+  <div class="container recall-loc">
+    <div class="recall-desc">
+      <h2 class="recall-tittle">Fresh Harvest Box has got you covered</h2>
+      <p class="recall-text">
+        Our boxes are packed with delicious, nutritious vegetables, perfect for
+        anyone looking to eat healthier or support local farmers. Order your box
+        today and start enjoying the best that nature has to offer!
+      </p>
+      <div class="recall-line">
+        <form class="recall-form">
+          <label class="recall-label">
+            <input class="recall-input" name="text" type="text" placeholder="+380 ()"
+              pattern="[\+]\d{2}\s[\(]\d{3}[\)]\s\d{3}[\-]\d{2}[\-]\d{2}" minlength="13" maxlength="13" required>
+          </label>
+          <button class="recall-btn" type="submit">Recall</button>
+        </form>
+      </div>
     </div>
-  </form>
-  <img
-    srcset="/sweet_potatoes/assets/girl-min-0a633f12.jpg 1x, /sweet_potatoes/assets/girl-ce5b28b4.jpg 2x"
-    src="/sweet_potatoes/assets/girl-min-0a633f12.jpg"
-    alt="girl"
-    width="335"
-    height="357"
-  />
-</div>
+    <div class="recall-img">
+      <picture>
+        <source srcset="/sweet_potatoes/assets/img-girl-desc-min-678bbbec.png 1x, /sweet_potatoes/assets/img-girl-desc-min-678bbbec.png 2x" media="(min-width: 1280px)">
+        <source srcset="/sweet_potatoes/assets/img-girl-tabl-min-d19f8a75.png 1x, /sweet_potatoes/assets/img-girl-tabl-d0ff8636.png 2x" media="(min-width: 768px)">
+        <source srcset="/sweet_potatoes/assets/img-girl-mob-min-8089695c.png 1x, /sweet_potatoes/assets/img-girl-mob-60e45eb9.png 2x" media="(max-width: 375px)">
+        <img src="/sweet_potatoes/assets/img-girl-mob-min-8089695c.png" alt="girl" width="335" height="357">
+      </picture>
+    </div>
+  </div>
 </section>
-
 
     </main>
 
