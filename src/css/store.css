@@ -173,6 +173,9 @@
     max-width: 768px;
     width: calc(100% - 64px);
   }
+  .garden-btn-container {
+   width: calc(100% - 64px);
+  }
 
   .garden-title {
     font-size: 28px;
@@ -236,6 +239,10 @@
   .garden-container {
     max-width: 1280px;
     width: calc(100% - 64px);
+  }
+  
+  .garden-btn-container {
+   width: calc(100% - 64px);
   }
 
   .garden-title {
