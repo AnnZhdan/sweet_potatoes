@@ -30,13 +30,18 @@ footer img {
     justify-content: center;
     align-items: center;
 }
+.footer-logo-link:hover {
+    color: var(--primary-green-color);
+}
 
 .footer-svg {
     width: 16px;
     height: 16px;
     margin-right: 8px;
 }
-
+.footer-logo-link:hover .footer-svg {
+    fill: var(--primary-green-color);
+}
 .footer-logo p {
     font-size: 14px;
     font-style: normal;
@@ -64,6 +69,10 @@ footer img {
     letter-spacing: -0.56px;
     color: var(--primary-dark-color);
     font-style: normal;
+}
+.foot-menu-text:hover,
+.foot-menu-text:hover {
+color: var(--primary-green-color);
 }
 
 .foot-soc-li {
@@ -122,7 +131,12 @@ address {
     line-height: 18px;
     letter-spacing: -0.28px;
 }
-
+.foot-address:hover {
+    color: var(--primary-green-color);
+}
+.contacts:hover {
+    color: var(--primary-green-color);
+}
 
 
 /* MEDIA */
